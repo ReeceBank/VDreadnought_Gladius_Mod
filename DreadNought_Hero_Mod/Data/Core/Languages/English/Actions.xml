@@ -18,4 +18,7 @@
 	<entry name="SpaceMarines/ArmorOfContempt" value="Armor Of Contempt"/>
 	<entry name="SpaceMarines/ArmorOfContemptDescription" value="Grants damage reduction for a single turn."/>
 	<entry name="SpaceMarines/ArmorOfContemptFlavor" value="Having teasted death before, the pilot of each Dreadnought is determined to do his duty before his end finally comes."/>
+	<entry name="SpaceMarines/FoundingMember" value="Founding Member"/>
+	<entry name="SpaceMarines/FoundingMemberDescription" value="dwadwa."/>
+	<entry name="SpaceMarines/FoundingMemberFlavor" value="dwadwa."/>
 </language>

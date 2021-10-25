@@ -135,8 +135,8 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- 2 -->
-		<genericUnitAbility name="SpaceMarines/HolyRelict"
-				icon="Factions/SpaceMarines"
+		<genericUnitAbility name="SpaceMarines/FoundingMember"
+				icon="Attributes/Research"
 				cooldown="6"
 				levelUpPriority="0.15"
 				rank="-1"
@@ -158,6 +158,15 @@
 									</conditions>
 									<effects>
 										<level add="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="SpaceMarines/FoundingMember"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -191,27 +200,39 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- E make free-->
-		<genericUnitAbility name="SpaceMarines/FoundingMember"
-				icon="Traits/IronHalo"
-				passive="1"
+		<genericUnitAbility name="SpaceMarines/AncientAdministrator"
+				icon="Actions/DeployFortressOfRedemption"
+				cooldown="15"
 				elite="1"
 				levelUpPriority="0.3"
 				rank="-1"
 				rankMax="0">
+			<model>
+				<action sound="Actions/DropPod"/>
+			</model>
 			<beginTargets>
-				<selfTarget>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+						</tile>
+					</conditions>
 					<areas>
-						<area affects="Unit">
+						<area affects="Tile">
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="IronHalo"/>
+										<addUnit name="SpaceMarines/FortressOfRedemption"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
-				</selfTarget>
+				</target>
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- deuty eternal -->
@@ -222,7 +243,7 @@
 				cooldown="10"
 				>
 			<model>
-				<action sound="Actions/PsychicBuff"/>
+				<action sound="Actions/ArmourUp"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
