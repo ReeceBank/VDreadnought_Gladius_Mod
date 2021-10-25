@@ -24,17 +24,17 @@ consumes action
 
 "Each fallen champion who rests within the sarcophagus of a Dreadnought has seen a thousand battles and slain foes beyond counting. All such noble warriors are immensely inspiring to their battle-brothers."
 ---------------------------
-Emperors Fist
+Living Relict
 
-5 turn cooldown
+5-7 turn cooldown
 consumes action.
-stun! 1 turn
 
-melee fist attack
-+0.5/1/1.5 damage
-+2/4/6 armor pen
+level adj units by 1
 
-"I am vengeance. I am retribution. Fear me, heretic, for I am your death."
+passivly:
+boost growth by 10/20/30%
+
+"something about being old and knowing lots"
 ---------------------------
 Unyeilding Ancient
 
