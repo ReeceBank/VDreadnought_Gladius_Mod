@@ -191,7 +191,7 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- E make free-->
-		<genericUnitAbility name="SpaceMarines/LivingWeaponPlatform"
+		<!-- <genericUnitAbility name="SpaceMarines/LivingWeaponPlatform"
 				icon="Traits/Salvo"
 				passive="1"
 				elite="1"
@@ -205,7 +205,7 @@
 					</effects>
 				</modifier>
 			</modifiers>
-		</levitate>
+		</genericUnitAbility> -->
 		<!-- deuty eternal -->
 		<genericUnitAbility name="SpaceMarines/DutyEternal"
 				icon="Traits/Stubborn"
