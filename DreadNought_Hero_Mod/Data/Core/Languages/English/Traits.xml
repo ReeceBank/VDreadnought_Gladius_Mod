@@ -6,13 +6,16 @@
 	<entry name="SpaceMarines/UnyeildingAncient" value="Unyeilding Ancient"/>
 	<entry name="SpaceMarines/UnyeildingAncient" value="Grants damage reduction and slow passive regen."/>
 	<entry name="SpaceMarines/UnyeildingAncient" value="Incoming fire spatters like rain off his towering adamantium and ceramite hull."/>
-	<entry name="SpaceMarines/EmperorsFist" value="Emperors Fist"/>
-	<entry name="SpaceMarines/EmperorsFistDescription" value="High damage attack that stuns."/>
-	<entry name="SpaceMarines/EmperorsFistFlavor" value="I am vengeance. I am retribution. Fear me, heretic, for I am your death."/>
-	<entry name="SpaceMarines/Teleportarium" value="Teleportarium"/>
-	<entry name="SpaceMarines/TeleportariumDescription" value="Teleport anywhere."/>
-	<entry name="SpaceMarines/TeleportariumFlavor" value="Utilising the arcane secrets of teleportation technology, the Deathwatch allow their Dreadnoughts to burst from nowhere to attack."/>
 	<entry name="SpaceMarines/DutyEternal" value="Duty Eternal"/>
-	<entry name="SpaceMarines/DutyEternalDescription" value="For my Brothers! For the Emperor!"/>
+	<entry name="SpaceMarines/DutyEternalDescription" value="Grants damage reduction for a single turn."/>
 	<entry name="SpaceMarines/DutyEternalFlavor" value="Having teasted death before, the pilot of each Dreadnought is determined to do his duty before his end finally comes."/>
+	<entry name="SpaceMarines/FoundingMember" value="Founding Member"/>
+	<entry name="SpaceMarines/FoundingMemberDescription" value="Grants an Iron Halo"/>
+	<entry name="SpaceMarines/FoundingMemberFlavor" value="A Dreadnought's raw power is made all the more deadly because it is wielded with all the grim resolve of the mortally wounded Veteran in its core. The memories of the ancient heroes who pilot them can extend back to the Founding of their Chapter and its earliest history."/>
+	<entry name="SpaceMarines/WeaponsPlatform" value="Weapons Platform"/>
+	<entry name="SpaceMarines/WeaponsPlatformDescription" value="Grants extra inventory slots."/>
+	<entry name="SpaceMarines/WeaponsPlatformFlavor" value=" Dreadnoughts are war incarnate, towering machines that advance forwards with thunderous strides, fiery death roaring from the myriad of heavy weapons mounted on their hulls."/>
+	<entry name="SpaceMarines/ArmorOfContempt" value="Armor Of Contempt"/>
+	<entry name="SpaceMarines/ArmorOfContemptDescription" value="Grants damage reduction for a single turn."/>
+	<entry name="SpaceMarines/ArmorOfContemptFlavor" value="Having teasted death before, the pilot of each Dreadnought is determined to do his duty before his end finally comes."/>
 </language>

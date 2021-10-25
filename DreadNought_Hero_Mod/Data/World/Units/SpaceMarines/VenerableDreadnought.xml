@@ -6,7 +6,7 @@
 				idleAnimation="Units/SpaceMarines/DreadnoughtIdle"
 				idleAnimationCount="3"
 				normalWeight="0.1"
-				scale="2.0 2.0 2.0"
+				scale="1.8 1.8 1.8"
 				syncMovementSounds="1"
 				explosionsBone="Hull"
 				walker="1"/>
@@ -231,7 +231,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="DutyEternal" duration="1"/>
+										<addTrait name="SpaceMarines/DutyEternal" duration="1"/>
 									</effects>
 								</modifier>
 							</modifiers>
