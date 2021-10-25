@@ -47,7 +47,7 @@
 				<requisitionsCost base="120.0"/> <!-- 8 %requisitionsCost base tier=9 factor=1 -->
 				<influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=8 factor=2 -->
 				<influenceCost base="80.0"/> <!-- %influenceCost base tier=8 factor=2 -->
-				<itemSlots base="6"/>
+				<itemSlots base="9"/>
 				<levelMax base="9"/>
 			</effects>
 		</modifier>
@@ -191,21 +191,29 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<!-- E make free-->
-		<!-- <genericUnitAbility name="SpaceMarines/LivingWeaponPlatform"
-				icon="Traits/Salvo"
+		<genericUnitAbility name="SpaceMarines/FoundingMember"
+				icon="Traits/IronHalo"
 				passive="1"
 				elite="1"
 				levelUpPriority="0.3"
 				rank="-1"
 				rankMax="0">
-			<modifiers>
-				<modifier>
-					<effects>
-						<itemSlots add="3"/>
-					</effects>
-				</modifier>
-			</modifiers>
-		</genericUnitAbility> -->
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="IronHalo"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<!-- deuty eternal -->
 		<genericUnitAbility name="SpaceMarines/DutyEternal"
 				icon="Traits/Stubborn"
@@ -300,7 +308,7 @@
 		<trait name="Vehicle"/>
 		<trait name="Walker"/>
 		<trait name="Hero"/>
-		<trait name="IronHalo"/>
+		<trait name="SpaceMarines/WeaponsPlatform"/> <!-- slots base cant be modded -->
 		<trait name="SpaceMarines/ArmorOfContempt"/>
 	</traits>
 </unit>
