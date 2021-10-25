@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/OrationOfRestoration" rankMax="2">
+<trait category="Buff" icon="Attributes/Morale" rankMax="2">
 	<perTurnModifiers endure="0">
 		<modifier>
 			<effects>
