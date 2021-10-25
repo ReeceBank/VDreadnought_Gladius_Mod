@@ -1,0 +1,56 @@
+niche:
+Tank, old, inspirational
+very expensive. VERY
+
+stomp? probs not
+Iron Halo. too OP?
+
+Armor of contempt (+1 armor)
+"The belligerency of some Adeptus Astartes machine spirits makes them unyielding foes to face." 
+
+Duty Eternal (buff 1 turn, 10 turn cooldown, 50% damage reduction)
+"Having teasted death before, the pilot of each Dreadnought is determined to do his duty before his end finally comes."
+
+hatred for chaos
+"Better crippled in body, than corrupt in mind."
+---------------------------
+Wisdom of the ancients
+
+consumes action
+
+1 range aoe buff; 1 turn; 3 turn cooldown?
++5/10/15% accuracy 
++5/10/15% attacks
+
+"Each fallen champion who rests within the sarcophagus of a Dreadnought has seen a thousand battles and slain foes beyond counting. All such noble warriors are immensely inspiring to their battle-brothers."
+---------------------------
+Emperors Fist
+
+5 turn cooldown
+consumes action.
+stun! 1 turn
+
+melee fist attack
++0.5/1/1.5 damage
++2/4/6 armor pen
+
+"I am vengeance. I am retribution. Fear me, heretic, for I am your death."
+---------------------------
+Unyeilding Ancient
+
+passive
+
++17..50% damage reduction
++1/1.5/2 hp per turn
+
+"Incoming fire spatters like rain off his towering adamantium and ceramite hull."
+---------------------------
+Teleportarium
+
+free action
+
+ludacrious range 20+? 50? infinite?
+ludacrious cooldown 30+
+damage where landing? maybe
+
+"Utilising the arcane secrets of teleportation technology, the Deathwatch allow their Dreadnoughts to burst from nowhere to attack."
