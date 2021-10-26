@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait category="Buff" icon="Attributes/Research">
+	<modifiers>
+		<modifier>
+			<effects>
+				<research addMin="2" addMax="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
 </trait>

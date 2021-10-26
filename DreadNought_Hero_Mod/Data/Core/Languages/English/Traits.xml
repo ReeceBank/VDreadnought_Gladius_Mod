@@ -15,7 +15,7 @@
 	<entry name="SpaceMarines/FoundingMember" value="Founding Member"/>
 	<entry name="SpaceMarines/FoundingMemberDescription" value="Shares knowledge with adjacent units and the Chapter, boosting level and research rate."/>
 	<entry name="SpaceMarines/FoundingMemberFlavor" value="The vast amount of knowledge and experience earned by Venerable Dreadnoughts places them in high regard amongst the other warriors of their Chapter. From the lowliest Initiate to the Chapter Master, all will eventually seek out the advice of one of these Ancients."/>
-	<entry name="SpaceMarines/AncientAdministrator" value="Call in favour"/>
-	<entry name="SpaceMarines/AncientAdministratorDescription" value="Call down a Fortress of Redemption"/>
-	<entry name="SpaceMarines/AncientAdministratorFlavor" value="Venerable Dreadnoughts are amongst the oldest war machines fighting on the battlefields of the 41st Millennium. Thus they are revered by other Space Marines, not just as potent warriors of legend, but also as ageless forebears and living embodiments of battles fought long ago."/>
+	<entry name="SpaceMarines/AncientAdministrator" value="I Bring Redemption"/>
+	<entry name="SpaceMarines/AncientAdministratorDescription" value="Calls down a Fortress of Redemption"/>
+	<entry name="SpaceMarines/AncientAdministratorFlavor" value="With This Bolter, I Bring Death. With This Beacon, I Bring Redemption."/>
 </language>

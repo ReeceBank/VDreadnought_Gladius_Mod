@@ -6,7 +6,7 @@
 				idleAnimation="Units/SpaceMarines/DreadnoughtIdle"
 				idleAnimationCount="3"
 				normalWeight="0.1"
-				scale="1.8 1.8 1.8"
+				scale="1.5 1.5 1.5"
 				syncMovementSounds="1"
 				explosionsBone="Hull"
 				walker="1"/>
@@ -160,16 +160,7 @@
 										</unit>
 									</conditions>
 									<effects>
-										<level add="1"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="SpaceMarines/FoundingMember"/>
+										<level addMin="0.5" addMax="1.5"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -214,7 +205,7 @@
 				<action sound="Actions/DropPod"/>
 			</model>
 			<beginTargets>
-				<target rangeMax="1">
+				<target rangeMax="2">
 					<conditions>
 						<tile>
 							<land/>
