@@ -4,21 +4,18 @@
 	<entry name="SpaceMarines/WisdomOfTheAncientsDescription" value="Buffs adjacent units accuracy and attacks."/>
 	<entry name="SpaceMarines/WisdomOfTheAncientsFlavor" value="Each fallen champion who rests within the sarcophagus of a Dreadnought has seen a thousand battles and slain foes beyond counting. All such noble warriors are immensely inspiring to their battle-brothers."/>
 	<entry name="SpaceMarines/UnyeildingAncient" value="Unyeilding Ancient"/>
-	<entry name="SpaceMarines/UnyeildingAncient" value="Grants damage reduction and slow passive regen."/>
-	<entry name="SpaceMarines/UnyeildingAncient" value="Incoming fire spatters like rain off his towering adamantium and ceramite hull."/>
+	<entry name="SpaceMarines/UnyeildingAncientDescription" value="Grants damage reduction and slow passive regen per turn."/>
+	<entry name="SpaceMarines/UnyeildingAncientFlavor" value="Incoming fire spatters like rain off his towering adamantium and ceramite hull."/>
 	<entry name="SpaceMarines/DutyEternal" value="Duty Eternal"/>
 	<entry name="SpaceMarines/DutyEternalDescription" value="Grants damage reduction for a single turn."/>
 	<entry name="SpaceMarines/DutyEternalFlavor" value="Having teasted death before, the pilot of each Dreadnought is determined to do his duty before his end finally comes."/>
-	<entry name="SpaceMarines/FoundingMember" value="Founding Member"/>
-	<entry name="SpaceMarines/FoundingMemberDescription" value="Grants an Iron Halo"/>
-	<entry name="SpaceMarines/FoundingMemberFlavor" value="A Dreadnought's raw power is made all the more deadly because it is wielded with all the grim resolve of the mortally wounded Veteran in its core. The memories of the ancient heroes who pilot them can extend back to the Founding of their Chapter and its earliest history."/>
 	<entry name="SpaceMarines/WeaponsPlatform" value="Weapons Platform"/>
 	<entry name="SpaceMarines/WeaponsPlatformDescription" value="Grants extra inventory slots."/>
-	<entry name="SpaceMarines/WeaponsPlatformFlavor" value=" Dreadnoughts are war incarnate, towering machines that advance forwards with thunderous strides, fiery death roaring from the myriad of heavy weapons mounted on their hulls."/>
-	<entry name="SpaceMarines/ArmorOfContempt" value="Armor Of Contempt"/>
-	<entry name="SpaceMarines/ArmorOfContemptDescription" value="Grants damage reduction for a single turn."/>
-	<entry name="SpaceMarines/ArmorOfContemptFlavor" value="Having teasted death before, the pilot of each Dreadnought is determined to do his duty before his end finally comes."/>
+	<entry name="SpaceMarines/WeaponsPlatformFlavor" value="Dreadnoughts are war incarnate, towering machines that advance forwards with thunderous strides, fiery death roaring from the myriad of heavy weapons mounted on their hulls."/>
 	<entry name="SpaceMarines/FoundingMember" value="Founding Member"/>
-	<entry name="SpaceMarines/FoundingMemberDescription" value="dwadwa."/>
-	<entry name="SpaceMarines/FoundingMemberFlavor" value="dwadwa."/>
+	<entry name="SpaceMarines/FoundingMemberDescription" value="Shares knowledge with adjacent units and the Chapter, boosting level and research rate."/>
+	<entry name="SpaceMarines/FoundingMemberFlavor" value="The vast amount of knowledge and experience earned by Venerable Dreadnoughts places them in high regard amongst the other warriors of their Chapter. From the lowliest Initiate to the Chapter Master, all will eventually seek out the advice of one of these Ancients."/>
+	<entry name="SpaceMarines/AncientAdministrator" value="Call in favour"/>
+	<entry name="SpaceMarines/AncientAdministratorDescription" value="Call down a Fortress of Redemption"/>
+	<entry name="SpaceMarines/AncientAdministratorFlavor" value="Venerable Dreadnoughts are amongst the oldest war machines fighting on the battlefields of the 41st Millennium. Thus they are revered by other Space Marines, not just as potent warriors of legend, but also as ageless forebears and living embodiments of battles fought long ago."/>
 </language>

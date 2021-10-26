@@ -33,7 +33,7 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
+				<armor base="9"/> <!-- %armor base armor=12/12/10 +1 armor of contempt -->
 				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
 				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
 				<meleeAttacks base="3"/>
@@ -105,6 +105,9 @@
 		<!-- 1 -->
 		<genericUnitAbility name="SpaceMarines/WisdomOfTheAncients"
 				icon="Traits/PrecisionShots"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
 				cooldown="3"
 				levelUpPriority="0.15"
 				rank="-1"
@@ -134,9 +137,9 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<!-- 2 -->
+		<!-- 2 FoundingMember -->
 		<genericUnitAbility name="SpaceMarines/FoundingMember"
-				icon="Attributes/Research"
+				icon="Factions/SpaceMarines"
 				cooldown="6"
 				levelUpPriority="0.15"
 				rank="-1"
@@ -175,7 +178,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<!-- 3 -->
+		<!-- 3 UnyeildingAncient -->
 		<genericUnitAbility name="SpaceMarines/UnyeildingAncient"
 				icon="Traits/FeelNoPain"
 				passive="1"
@@ -202,7 +205,7 @@
 		<!-- E make free-->
 		<genericUnitAbility name="SpaceMarines/AncientAdministrator"
 				icon="Actions/DeployFortressOfRedemption"
-				cooldown="15"
+				cooldown="12"
 				elite="1"
 				levelUpPriority="0.3"
 				rank="-1"
@@ -226,7 +229,9 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addUnit name="SpaceMarines/FortressOfRedemption"/>
+										<addUnit name="SpaceMarines/FortressOfRedemption"
+												consumedActionPoints="0"
+												consumedMovement="0"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -238,7 +243,8 @@
 		<!-- deuty eternal -->
 		<genericUnitAbility name="SpaceMarines/DutyEternal"
 				icon="Traits/Stubborn"
-				consumedActionPoints="0" 
+				requiredActionPoints="0"
+				consumedActionPoints="0"
 				consumedMovement="0"
 				cooldown="10"
 				>
@@ -330,6 +336,5 @@
 		<trait name="Walker"/>
 		<trait name="Hero"/>
 		<trait name="SpaceMarines/WeaponsPlatform"/> <!-- slots base cant be modded -->
-		<trait name="SpaceMarines/ArmorOfContempt"/>
 	</traits>
 </unit>

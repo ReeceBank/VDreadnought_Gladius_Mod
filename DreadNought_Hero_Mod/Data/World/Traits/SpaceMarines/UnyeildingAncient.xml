@@ -4,7 +4,7 @@
 		<modifier>
 			<effects>
 				<hitpoints addMin="1" addMax="2"/>
-				<feelNoPainDamageReduction addMin="0.17" addMax="0.5"/>
+				<feelNoPainDamageReduction addMin="0.25" addMax="0.75"/>
 			</effects>
 		</modifier>
 	</perTurnModifiers>
